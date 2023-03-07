@@ -1,0 +1,138 @@
+.contant-about{
+    width:1920px;
+    
+    overflow: hidden;
+    text-align: center;
+ background-color: rgb(255, 255, 255);
+
+}
+.card-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 100px;
+    color: aliceblue;
+   
+
+}
+p{
+    color:#000;
+    font-weight: 800;
+    font-size: larger;
+    text-align: center;
+    display: flexbox;
+}
+.item1{
+    margin: 20px 20px;
+    background-image: url(./images/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    width: 450px;
+    height: 450px ;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+overflow: hidden;
+}
+.item2{
+    margin: 20px 20px;
+    background-image: url(./images/medg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    width: 450px;
+    height: 450px ;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+overflow: hidden;
+}
+.item3{
+    margin: 20px 20px;
+    background-image: url(./images/arua.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    width: 450px;
+    height: 450px ;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+overflow: hidden;}
+.item4{
+    margin: 20px 20px;
+    background-image: url(./images/pranic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    width: 450px;
+    height: 450px ;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+overflow: hidden;}
+
+.item5{
+    margin: 20px 20px;
+    background-image: url(./images/counseling.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    width: 450px;
+    height: 450px ;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+overflow: hidden;}
+.item6{
+    margin: 20px 20px;
+    background-image: url(./images/medg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 450px ;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+overflow: hidden;}
+
+h4{
+    color: #ffffff;
+    text-shadow: #000;
+}
+.contant{
+    font-weight: bolder;
+    
+}
+button{
+    padding: 20px 30px;
+    color: #fff;
+    margin-top: 200px;
+    background-color: transparent;
+    font-weight: 900;
+  
+    font-size: medium;
+    border: 3px solid #fff;
+    transition: 0.50s;
+}
+button:hover{
+    color: black;
+    background-color: #fff;
+    border-color: black;
+    transition: 0.50s;
+}
+@media screen and (max-width:446px){
+    .card-about{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 100px;
+        color: aliceblue;}
+}
